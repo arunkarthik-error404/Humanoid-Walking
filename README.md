@@ -1,4 +1,4 @@
-# LearningHumanoidWalking
+# HumanoidWalking
 
 Code for the papers:  
 - [**Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement Learning**](https://ieeexplore.ieee.org/abstract/document/10769793)  
@@ -10,17 +10,6 @@ Code for the papers:
 - [**Learning Bipedal Walking On Planned Footsteps For Humanoid Robots**](https://arxiv.org/pdf/2207.12644.pdf)  
 [Rohan P. Singh](https://rohanpsingh.github.io), [Mehdi Benallegue](https://unit.aist.go.jp/jrl-22022/en/members/member-benalleguem.html), [Mitsuharu Morisawa](https://unit.aist.go.jp/jrl-22022/en/members/member-morisawa.html), [Rafael Cisneros](https://unit.aist.go.jp/jrl-22022/en/members/member-cisneros.html), [Fumio Kanehiro](https://unit.aist.go.jp/jrl-22022/en/members/member-kanehiro.html)
 
-
-## Code structure:
-A rough outline for the repository that might be useful for adding your own robot:
-```
-LearningHumanoidWalking/
-├── envs/                <-- Actions and observation space, PD gains, simulation step, control decimation, init, ...
-├── tasks/               <-- Reward function, termination conditions, and more...
-├── rl/                  <-- Code for PPO, actor/critic networks, observation normalization process...
-├── models/              <-- MuJoCo model files: XMLs/meshes/textures
-└── scripts/             <-- Utility scripts, etc.
-```
 
 ## Requirements:
 - Python version: 3.12.4
